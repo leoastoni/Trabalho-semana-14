@@ -1,0 +1,373 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Menu principal */
+header {
+    background-color: white;
+    height: 80px;
+    padding: 20px;
+}
+
+.menu-principal {
+    position: fixed;
+    top: 0;
+    right: 4px;
+    width: 85%;
+    background: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.menu-btn {
+    display: none;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.texto-pesquisa {
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.menu-principal ul {
+    list-style-type: none;
+}
+
+.menu-principal ul li {
+    display: inline-block;
+}
+
+.btn {
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    background: rgb(196, 29, 7);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: rgb(143, 30, 15);
+}
+
+/* Conteúdo do site */
+main {
+    margin-left: 240px;
+    margin-top: 120px;
+    padding: 20px;
+    width: 80%;
+    display: block;
+}
+
+.banner {
+    width: 100%;  
+    height: 500px; 
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;  
+}
+
+.banner img {
+    width: 100%;  
+    height: 100%;  
+    object-fit: cover;  
+}
+
+.banner:hover {
+    transform: scale(1.04);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.banner img:hover {
+    transform: none;  
+}
+
+.filtro-categorias {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0 20px 0;
+}
+
+.filtro-categorias select {
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.filtro-categorias select:hover {
+    background-color: black;
+}
+
+.filmes {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+    margin: 15px;
+    overflow: hidden;
+    background: white; 
+    padding: 0;
+}
+
+.filmes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.galeria-filmes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.filmes:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Barra lateral */
+aside {
+    width: 10%;
+    background: #242424;
+    border-radius: 0px;
+    padding: 10px;
+    left: 0%;
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 0 30px black;
+}
+
+aside div ul {
+    width: 80%;
+    padding: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: left;
+    font-weight: bold;
+    transition: background 0.3s;
+    display: block;
+    list-style: none; 
+}
+
+.btn-menu {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    background: gray;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: left;
+    font-weight: bold;
+    transition: background 0.3s;
+    display: block;
+}
+
+.btn-menu:hover {
+    background: darkgrey;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    padding: 20px 10px;
+    text-align: left; 
+    font-family: Arial, sans-serif;
+    margin-top: 40px;
+}
+
+.rodape-conteudo {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.resumo-site {
+    max-width: 60%; 
+}
+
+.informacoes {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.foto-perfil {
+    margin-right: 15px;
+}
+
+.foto-usuario {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.informacoes-pessoais {
+    color: white;
+    text-align: right;
+}
+
+.informacoes-pessoais p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.informacoes-pessoais strong {
+    font-weight: 600;
+}
+
+.resumo-site p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+/* Responsividade */
+@media (max-width: 1024px) {
+    
+    aside {
+        width: 80%;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100%;
+        transition: left 0.3s ease-in-out;
+    }
+
+    .menu-btn {
+    display: block;
+    }
+
+    aside.show {
+        left: 0;
+    }
+
+    .btn-menu {
+        width: 100%;
+    }
+
+    .menu-principal {
+        position: relative;
+    }
+
+    main {
+        margin-left: 0;
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .menu-principal {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .texto-pesquisa {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .caixa-pesquisa {
+        margin-bottom: 15px;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+
+    .filmes {
+        width: 45%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .banner {
+        height: 200px;
+    }
+
+    .filtro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .filtro label,
+    .filtro select {
+        width: 100%;
+    }
+
+    main {
+        margin: 0;
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .menu-principal {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .texto-pesquisa {
+        width: 100%;
+    }
+
+    aside {
+        display: none;
+    }
+
+    .filmes {
+        width: 80%;
+        padding: 30px;
+        margin: 10px auto;
+    }
+
+    .menu-principal {
+        width: 100%;
+        padding: 10px;
+    }
+}

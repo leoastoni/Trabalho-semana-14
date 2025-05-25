@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Filmes</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/scripts/app.js" defer></script>
+</head>
+<body>
+
+  <!-- CABEÇALHO -->
+  <header>
+    <nav class="menu-principal">
+      <div class="caixa-pesquisa">
+        <input type="text" class="texto-pesquisa" placeholder="Pesquisar...">
+      </div>
+      <div>
+        <button class="btn" aria-label="Fazer login">Login</button>
+        <button class="btn" aria-label="Fazer cadastro">Cadastro</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main>
+    <section class="banner">
+      <img src="/img/banner1.jpg" alt="De Volta Para o Futuro" width="300px" height="450px">
+    </section>
+
+    <!-- FILTRO DE CATEGORIAS -->
+    <section class="filtro-categorias">
+        <select id="categoriaSelect">
+            <option value="todos">Todos os Filmes</option>
+            <option value="Ação">Ação</option>
+            <option value="Comédia">Comédia</option>
+            <option value="Drama">Drama</option>
+            <option value="Aventura">Aventura</option>
+            <option value="Ficção Científica">Ficção Científica</option>
+            <option value="Terror">Terror</option>
+        </select>
+    </section>
+
+   
+    <div class="galeria-filmes"></div>
+
+    
+    <div class="lista-filmes"></div>
+  </main>
+
+  <!-- BARRA LATERAL -->
+  <aside>
+    <div class="dropdown">
+      <ul>
+        <li><button class="btn-menu">Home</button></li>
+        <li><button class="btn-menu">Histórico</button></li>
+        <li><button class="btn-menu">Meus Filmes</button></li>
+        <li><button class="btn-menu">Tendências</button></li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- RODAPÉ -->
+  <footer>
+    <div class="rodape-conteudo">
+      <div class="resumo-site">
+        <p>Bem-vindo ao meu site, onde você pode explorar uma seleção de filmes incríveis e acessar informações detalhadas sobre eles.</p>
+      </div>
+      <div class="informacoes">
+        <div class="foto-perfil">
+          <img src="/img/rodape.jpg" alt="Leonardo Mendes Astoni Ferreira" class="foto-usuario">
+        </div>
+        <div class="informacoes-pessoais">
+          <p><strong>Nome:</strong> Leonardo Mendes Astoni Ferreira</p>
+          <p><strong>Curso:</strong> Sistemas de Informação</p>
+          <p><strong>Turma:</strong> Noite</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

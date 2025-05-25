@@ -1,18 +1,155 @@
+
 {
-  "usuarios": [
+  "filmes":[
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "titulo": "Django Livre",
+      "descricao": "Filme de ação e faroeste que segue a jornada de Django.",
+      "categoria": "Ação",
+      "diretor": "Quentin Tarantino",
+      "ano": "2012",
+      "imagem": "/img/filme1.jpg",
+      "conteudo": "Django, um ex-escravo, se junta a um caçador de recompensas para resgatar sua esposa de um fazendeiro cruel."
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "titulo": "De Volta Para o Futuro",
+      "descricao": "Clássico de ficção científica sobre viagens no tempo.",
+      "categoria": "Ficção Científica",
+      "diretor": "Robert Zemeckis",
+      "ano": "1985",
+      "imagem": "/img/filme2.jpg",
+      "conteudo": "Marty McFly viaja no tempo com a ajuda de um cientista excêntrico para garantir que seus pais se conheçam."
+    },
+    {
+      "id": 3,
+      "titulo": "Liga da Justiça",
+      "descricao": "Super-heróis se unem para combater uma ameaça global.",
+      "categoria": "Ação",
+      "diretor": "Zack Snyder",
+      "ano": "2017",
+      "imagem": "/img/filme5.webp",
+      "conteudo": "Batman e Mulher-Maravilha recrutam heróis para enfrentar a ameaça de Steppenwolf e as forças de Darkseid."
+    },
+    {
+      "id": 4,
+      "titulo": "Star Wars",
+      "descricao": "A épica batalha entre o Império e a Rebelião.",
+      "categoria": "Ficção Científica",
+      "ano": "1977",
+      "diretor": "George Lucas",
+      "imagem": "/img/filme6.jpg",
+      "conteudo": "Luke Skywalker, com a ajuda de aliados como Han Solo e a Princesa Leia, se junta à Rebelião para derrotar o Império Galáctico e destruir a Estrela da Morte."
+  },
+  {
+      "id": 5,
+      "titulo": "Rambo 2",
+      "descricao": "Rambo é enviado em uma missão para resgatar prisioneiros de guerra.",
+      "categoria": "Ação",
+      "ano": "1985",
+      "diretor": "George P. Cosmatos",
+      "imagem": "/img/filme7.jpg",
+      "conteudo": "John Rambo é libertado da prisão e enviado em uma missão secreta para resgatar prisioneiros americanos do Vietnã. Ele deve enfrentar forças militares locais e inimigos inesperados."
+  },
+  {
+      "id": 6,
+      "titulo": " The Batman",
+      "descricao": "O Cavaleiro das Trevas combate o crime em Gotham.",
+      "categoria": "Ação",
+      "ano": "2022",
+      "diretor": "Matt Reeves",
+      "imagem": "/img/filme8.jpg",
+      "conteudo": "Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City. Com poucos aliados confiáveis, o vigilante solitário se estabelece como a personificação da vingança para a população."
+  },
+  {
+      "id": 7,
+      "titulo": "Flow",
+      "descricao": "Drama e mistério com grandes reviravoltas.",
+      "categoria": "Drama",
+      "ano": "2024",
+      "diretor": "John Doe",
+      "imagem": "/img/filme9.webp",
+      "conteudo": "Gato é um animal solitário, mas quando seu lar é devastado por uma grande inundação, ele encontra refúgio em um barco povoado por várias espécies, e tem que se unir a elas apesar de suas diferenças."
+  },
+  {
+      "id": 8,
+      "titulo": "Deadpool e Wolverine",
+      "descricao": "Os anti-heróis se enfrentam em uma missão cheia de ação.",
+      "categoria": "Ação",
+      "ano": "2016",
+      "diretor": "Tim Miller",
+      "imagem": "/img/filme10.jpg",
+      "conteudo": "Deadpool e Wolverine se unem para combater um inimigo comum, mas sua relação turbulenta se torna uma batalha constante de egos e lealdades."
+  },
+  {
+      "id": 9,
+      "titulo": "Minha Mãe é uma Peça",
+      "descricao": "Comédia sobre uma mãe superprotetora e seus filhos.",
+      "categoria": "Comédia",
+      "ano": "2013",
+      "diretor": "Andrucha Waddington",
+      "imagem": "/img/filme12.webp",
+      "conteudo": "Dona Hermínia é uma mãe extremamente protetora e controladora, que vive se metendo na vida dos filhos. O filme traz momentos de comédia e reflexões sobre a relação entre mãe e filhos."
+  },
+  {
+      "id": 10,
+      "titulo": "Minecraft",
+      "descricao": "O mundo do popular jogo ganha vida em uma aventura cinematográfica.",
+      "categoria": "Aventura",
+      "ano": "2022",
+      "diretor": "Rob McElhenney",
+      "imagem": "/img/filme13.jpg",
+      "conteudo": "Em um universo inspirado no famoso jogo Minecraft, um grupo de jovens se vê em uma aventura épica para salvar o mundo virtual de um vilão que ameaça destruir tudo."
+  },
+  {
+      "id": 11,
+      "titulo": "Coringa 2",
+      "descricao": "O retorno do infame vilão com uma nova jornada.",
+      "categoria": "Drama",
+      "ano": "2024",
+      "diretor": "Todd Phillips",
+      "imagem": "/img/filme1.jpg",
+      "conteudo": "O infame vilão Coringa retorna em uma sequência profunda e introspectiva, explorando a ascensão de sua loucura e os desafios de viver em um mundo caótico."
+  },
+  {
+      "id": 12,
+      "titulo": "Annabelle",
+      "descricao": "O terror volta com a boneca possuída mais assustadora.",
+      "categoria": "Terror",
+      "ano": "2014",
+      "diretor": "John R. Leonetti",
+      "imagem": "/img/filme15.jpg",
+      "conteudo": "Após um ataque de uma seita satânica, uma boneca de aparência inocente se torna possuída e começa a aterrorizar uma jovem família. Uma luta pela sobrevivência se inicia."
+  },
+  {
+      "id": 13,
+      "titulo": "It a Coisa",
+      "descricao": "O aterrorizante Pennywise retorna para assombrar Derry.",
+      "categoria": "Terror",
+      "ano": "2017",
+      "diretor": "Andy Muschietti",
+      "imagem": "/img/filme16.jpg",
+      "conteudo": "Baseado na obra de Stephen King, 'It' acompanha um grupo de crianças, conhecido como Clube dos Perdedores, que enfrenta seus maiores medos ao enfrentar o malvado palhaço Pennywise, cuja história de assassinato e violência remonta a séculos."
+  },
+  {
+      "id": 14,
+      "titulo": "Terrifier 3",
+      "descricao": "Art, o palhaço, está de volta em uma sequência ainda mais sangrenta.",
+      "categoria": "Terror",
+      "ano": "2024",
+      "diretor": "Damien Leone",
+      "imagem": "/img/filme17.webp",
+      "conteudo": "Art continua aterrorizando uma pequena cidade na véspera de Natal, trazendo um novo nível de horror e cenas impactantes. A franquia Terrifier é conhecida por seu terror extremo e cenas explícitas para fãs de horror hardcore."
+  },
+  {
+      "id": 15,
+      "titulo": "Senhor dos Aneis",
+      "descricao": "A jornada épica para destruir o Um Anel começa na Terra Média.",
+      "categoria": "Fantasia",
+      "ano": "2001",
+      "diretor": "Peter Jackson",
+      "imagem": "/img/filme18.jpg",
+      "conteudo": "Baseado nos livros de J.R.R. Tolkien, a trilogia 'O Senhor dos Anéis' segue Frodo e seus amigos em uma missão para destruir o Um Anel e derrotar o maligno Sauron. Um marco do cinema de fantasia e aventura."
     }
   ]
 }

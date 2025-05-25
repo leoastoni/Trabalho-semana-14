@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Login e Cadastro</title>
+<link rel="stylesheet" href="/assets/css/login.css" />
+</head>
+<body>
+
+<div class="container">
+  <div class="toggle-btns">
+    <button id="show-login" class="active">Login</button>
+    <button id="show-register">Cadastro</button>
+  </div>
+
+  <form id="login-form" class="active">
+    <h2>Login</h2>
+    <div class="error" id="login-error"></div>
+    <input type="text" id="login-username" placeholder="Usuário" required />
+    <input type="password" id="login-password" placeholder="Senha" required />
+    <button type="submit">Entrar</button>
+  </form>
+
+  <form id="register-form">
+    <h2>Cadastro</h2>
+    <div class="error" id="register-error"></div>
+    <input type="text" id="register-username" placeholder="Usuário" required />
+    <input type="email" id="register-email" placeholder="Email" required />
+    <input type="password" id="register-password" placeholder="Senha" required />
+    <input type="password" id="register-password2" placeholder="Confirme a Senha" required />
+    <button type="submit">Cadastrar</button>
+  </form>
+</div>
+
+<script src="/assets/scripts/login.js"></script>
+</body>
+</html>

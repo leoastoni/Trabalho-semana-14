@@ -6,10 +6,10 @@ Nesta atividade, você irá completar o projeto anterior permitindo cadastrar e 
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Leonardo Mendes Astoni Ferreira
+- Matricula: 896269
+- Proposta de projeto escolhida: Catálogo de filmes
+- Breve descrição sobre seu projeto: Um site simples onde o usuário poderá ver sobre seu filme de interesse
 
 **Print do testes da API com Postman ou similar**
 
