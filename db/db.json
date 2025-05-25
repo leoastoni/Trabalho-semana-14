@@ -1,6 +1,5 @@
-
 {
-  "filmes":[
+  "filmes": [
     {
       "id": 1,
       "titulo": "Django Livre",
@@ -40,8 +39,8 @@
       "diretor": "George Lucas",
       "imagem": "/img/filme6.jpg",
       "conteudo": "Luke Skywalker, com a ajuda de aliados como Han Solo e a Princesa Leia, se junta à Rebelião para derrotar o Império Galáctico e destruir a Estrela da Morte."
-  },
-  {
+    },
+    {
       "id": 5,
       "titulo": "Rambo 2",
       "descricao": "Rambo é enviado em uma missão para resgatar prisioneiros de guerra.",
@@ -50,8 +49,8 @@
       "diretor": "George P. Cosmatos",
       "imagem": "/img/filme7.jpg",
       "conteudo": "John Rambo é libertado da prisão e enviado em uma missão secreta para resgatar prisioneiros americanos do Vietnã. Ele deve enfrentar forças militares locais e inimigos inesperados."
-  },
-  {
+    },
+    {
       "id": 6,
       "titulo": " The Batman",
       "descricao": "O Cavaleiro das Trevas combate o crime em Gotham.",
@@ -60,8 +59,8 @@
       "diretor": "Matt Reeves",
       "imagem": "/img/filme8.jpg",
       "conteudo": "Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City. Com poucos aliados confiáveis, o vigilante solitário se estabelece como a personificação da vingança para a população."
-  },
-  {
+    },
+    {
       "id": 7,
       "titulo": "Flow",
       "descricao": "Drama e mistério com grandes reviravoltas.",
@@ -70,8 +69,8 @@
       "diretor": "John Doe",
       "imagem": "/img/filme9.webp",
       "conteudo": "Gato é um animal solitário, mas quando seu lar é devastado por uma grande inundação, ele encontra refúgio em um barco povoado por várias espécies, e tem que se unir a elas apesar de suas diferenças."
-  },
-  {
+    },
+    {
       "id": 8,
       "titulo": "Deadpool e Wolverine",
       "descricao": "Os anti-heróis se enfrentam em uma missão cheia de ação.",
@@ -80,8 +79,8 @@
       "diretor": "Tim Miller",
       "imagem": "/img/filme10.jpg",
       "conteudo": "Deadpool e Wolverine se unem para combater um inimigo comum, mas sua relação turbulenta se torna uma batalha constante de egos e lealdades."
-  },
-  {
+    },
+    {
       "id": 9,
       "titulo": "Minha Mãe é uma Peça",
       "descricao": "Comédia sobre uma mãe superprotetora e seus filhos.",
@@ -90,8 +89,8 @@
       "diretor": "Andrucha Waddington",
       "imagem": "/img/filme12.webp",
       "conteudo": "Dona Hermínia é uma mãe extremamente protetora e controladora, que vive se metendo na vida dos filhos. O filme traz momentos de comédia e reflexões sobre a relação entre mãe e filhos."
-  },
-  {
+    },
+    {
       "id": 10,
       "titulo": "Minecraft",
       "descricao": "O mundo do popular jogo ganha vida em uma aventura cinematográfica.",
@@ -100,8 +99,8 @@
       "diretor": "Rob McElhenney",
       "imagem": "/img/filme13.jpg",
       "conteudo": "Em um universo inspirado no famoso jogo Minecraft, um grupo de jovens se vê em uma aventura épica para salvar o mundo virtual de um vilão que ameaça destruir tudo."
-  },
-  {
+    },
+    {
       "id": 11,
       "titulo": "Coringa 2",
       "descricao": "O retorno do infame vilão com uma nova jornada.",
@@ -110,8 +109,8 @@
       "diretor": "Todd Phillips",
       "imagem": "/img/filme1.jpg",
       "conteudo": "O infame vilão Coringa retorna em uma sequência profunda e introspectiva, explorando a ascensão de sua loucura e os desafios de viver em um mundo caótico."
-  },
-  {
+    },
+    {
       "id": 12,
       "titulo": "Annabelle",
       "descricao": "O terror volta com a boneca possuída mais assustadora.",
@@ -120,8 +119,8 @@
       "diretor": "John R. Leonetti",
       "imagem": "/img/filme15.jpg",
       "conteudo": "Após um ataque de uma seita satânica, uma boneca de aparência inocente se torna possuída e começa a aterrorizar uma jovem família. Uma luta pela sobrevivência se inicia."
-  },
-  {
+    },
+    {
       "id": 13,
       "titulo": "It a Coisa",
       "descricao": "O aterrorizante Pennywise retorna para assombrar Derry.",
@@ -130,8 +129,8 @@
       "diretor": "Andy Muschietti",
       "imagem": "/img/filme16.jpg",
       "conteudo": "Baseado na obra de Stephen King, 'It' acompanha um grupo de crianças, conhecido como Clube dos Perdedores, que enfrenta seus maiores medos ao enfrentar o malvado palhaço Pennywise, cuja história de assassinato e violência remonta a séculos."
-  },
-  {
+    },
+    {
       "id": 14,
       "titulo": "Terrifier 3",
       "descricao": "Art, o palhaço, está de volta em uma sequência ainda mais sangrenta.",
@@ -140,8 +139,8 @@
       "diretor": "Damien Leone",
       "imagem": "/img/filme17.webp",
       "conteudo": "Art continua aterrorizando uma pequena cidade na véspera de Natal, trazendo um novo nível de horror e cenas impactantes. A franquia Terrifier é conhecida por seu terror extremo e cenas explícitas para fãs de horror hardcore."
-  },
-  {
+    },
+    {
       "id": 15,
       "titulo": "Senhor dos Aneis",
       "descricao": "A jornada épica para destruir o Um Anel começa na Terra Média.",
@@ -150,6 +149,32 @@
       "diretor": "Peter Jackson",
       "imagem": "/img/filme18.jpg",
       "conteudo": "Baseado nos livros de J.R.R. Tolkien, a trilogia 'O Senhor dos Anéis' segue Frodo e seus amigos em uma missão para destruir o Um Anel e derrotar o maligno Sauron. Um marco do cinema de fantasia e aventura."
+    },
+    {
+      "id": 16
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "login": "usuario1",
+      "nome": "Usuário Um",
+      "email": "usuario1@email.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 2,
+      "login": "usuario2",
+      "nome": "Usuário Dois",
+      "email": "usuario2@email.com",
+      "senha": "senha456"
+    },
+    {
+      "login": "usuario3",
+      "nome": "usuario3",
+      "email": "usuario3@email.com",
+      "senha": "senha123",
+      "id": 3
     }
   ]
 }

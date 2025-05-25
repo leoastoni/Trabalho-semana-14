@@ -1,4 +1,3 @@
-// Elementos
 const loginForm = document.getElementById('login-form');
 const registerForm = document.getElementById('register-form');
 const showLoginBtn = document.getElementById('show-login');
@@ -6,7 +5,9 @@ const showRegisterBtn = document.getElementById('show-register');
 const loginError = document.getElementById('login-error');
 const registerError = document.getElementById('register-error');
 
-// Alternar entre formulários
+const API_URL = "http://localhost:3000/usuarios";
+
+// Alternar formulários
 showLoginBtn.addEventListener('click', () => {
   loginForm.classList.add('active');
   registerForm.classList.remove('active');
@@ -28,40 +29,33 @@ function clearErrors() {
   registerError.textContent = '';
 }
 
-// Salvar usuário no localStorage
-function saveUser(user) {
-  let users = JSON.parse(localStorage.getItem('users')) || [];
-  users.push(user);
-  localStorage.setItem('users', JSON.stringify(users));
-}
-
-// Buscar usuários no localStorage
-function getUsers() {
-  return JSON.parse(localStorage.getItem('users')) || [];
-}
-
-// Login
-loginForm.addEventListener('submit', function(e) {
+// LOGIN
+loginForm.addEventListener('submit', async function(e) {
   e.preventDefault();
   clearErrors();
 
   const username = document.getElementById('login-username').value.trim();
   const password = document.getElementById('login-password').value;
 
-  const users = getUsers();
-  const user = users.find(u => u.username === username && u.password === password);
+  try {
+    const res = await fetch(`${API_URL}?login=${username}&senha=${password}`);
+    const users = await res.json();
 
-  if (user) {
-    alert('Login realizado com sucesso!');
-    // Redirecionar para outra página se quiser:
-    // window.location.href = 'index.html';
-  } else {
-    loginError.textContent = 'Usuário ou senha incorretos.';
+    if (users.length > 0) {
+      alert('Login realizado com sucesso!');
+      localStorage.setItem('usuarioLogado', JSON.stringify(users[0]));
+      // window.location.href = 'index.html'; // descomente se quiser redirecionar
+    } else {
+      loginError.textContent = 'Usuário ou senha incorretos.';
+    }
+  } catch (err) {
+    console.error('Erro ao fazer login:', err);
+    loginError.textContent = 'Erro na requisição.';
   }
 });
 
-// Cadastro
-registerForm.addEventListener('submit', function(e) {
+// CADASTRO
+registerForm.addEventListener('submit', async function(e) {
   e.preventDefault();
   clearErrors();
 
@@ -75,21 +69,39 @@ registerForm.addEventListener('submit', function(e) {
     return;
   }
 
-  const users = getUsers();
+  try {
+    const res = await fetch(`${API_URL}`);
+    const users = await res.json();
 
-  if (users.find(u => u.username === username)) {
-    registerError.textContent = 'Usuário já existe.';
-    return;
+    if (users.find(u => u.login === username)) {
+      registerError.textContent = 'Usuário já existe.';
+      return;
+    }
+
+    if (users.find(u => u.email === email)) {
+      registerError.textContent = 'Email já cadastrado.';
+      return;
+    }
+
+    // POST para cadastrar novo usuário
+    await fetch(API_URL, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        login: username,
+        nome: username,
+        email: email,
+        senha: password
+      })
+    });
+
+    alert('Cadastro realizado com sucesso! Agora faça login.');
+    registerForm.reset();
+    showLoginBtn.click();
+  } catch (err) {
+    console.error('Erro ao cadastrar:', err);
+    registerError.textContent = 'Erro ao tentar cadastrar.';
   }
-
-  if (users.find(u => u.email === email)) {
-    registerError.textContent = 'Email já cadastrado.';
-    return;
-  }
-
-  saveUser({ username, email, password });
-  alert('Cadastro realizado com sucesso! Agora faça login.');
-
-  registerForm.reset();
-  showLoginBtn.click();
 });
