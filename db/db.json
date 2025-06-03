@@ -189,6 +189,26 @@
       "imagem": "https://br.web.img2.acsta.net/pictures/23/05/08/10/29/0695770.jpg",
       "conteudo": "O filme \"Oppenheimer\" (2023), dirigido por Christopher Nolan, é uma cinebiografia que explora a vida e a jornada de J. Robert Oppenheimer, o físico teórico americano que liderou o Projeto Manhattan, o desenvolvimento da bomba atômica durante a Segunda Guerra Mundial.",
       "id": "aqM2bps"
+    },
+    {
+      "titulo": "Clube da Luta",
+      "descricao": "\"Clube da Luta\" (em inglês, \"Fight Club\") é um filme de 1999 dirigido por David Fincher, baseado no romance de mesmo nome de Chuck Palahniuk.",
+      "categoria": "Ação",
+      "diretor": "David Fincher",
+      "ano": "1999",
+      "imagem": "https://br.web.img3.acsta.net/medias/nmedia/18/90/95/96/20122166.jpg",
+      "conteudo": "Conta a história de um homem insone que, após conhecer o carismático e rebelde Tyler Durden, cria um clube de luta clandestino como forma de terapia e de rebelião contra a cultura consumista. ",
+      "id": "jkTUZEA"
+    },
+    {
+      "titulo": "Ace Ventura 2 - Um Maluco na África",
+      "descricao": "Ace Ventura, detetive de animais, viaja para a África para investigar o sumiço de um morcego branco, animal sagrado para uma tribo, e evitar uma guerra. ",
+      "categoria": "Comédia",
+      "diretor": "Steve Oedekerk",
+      "ano": "1995",
+      "imagem": "https://play-lh.googleusercontent.com/36ejIb7DLSbSVNptBZnohyS8_R8M1pYBwftbJChq34D_vO9gqgalKC7WAy4jVSdyUM9IsY5PTB-YYAGfYpQ",
+      "conteudo": "Ace Ventura, um detetive de animais, é chamado para o continente africano para investigar o desaparecimento de um raro morcego branco, sagrado para uma tribo local. O desaparecimento é visto como uma má notícia, pois o morcego estava prometido como dote para o casamento da princesa da tribo. Ace, com sua personalidade excêntrica e peculiar, parte para a África, embarcando em uma aventura maluca e hilária enquanto tenta resolver o mistério do morcego e evitar uma guerra civil entre as tribos. ",
+      "id": "B9WHRTN"
     }
   ],
   "usuarios": [
