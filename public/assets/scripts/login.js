@@ -5,6 +5,16 @@ const showRegisterBtn = document.getElementById('show-register');
 const loginError = document.getElementById('login-error');
 const registerError = document.getElementById('register-error');
 
+const urlParams = new URLSearchParams(window.location.search);
+const tab = urlParams.get('tab');
+if (tab === 'cadastro') {
+  showRegisterBtn.click();
+} else {
+  showLoginBtn.click();
+}
+
+
+
 const API_URL = "http://localhost:3000/usuarios";
 
 // Alternar formulários
@@ -44,7 +54,7 @@ loginForm.addEventListener('submit', async function(e) {
     if (users.length > 0) {
       alert('Login realizado com sucesso!');
       localStorage.setItem('usuarioLogado', JSON.stringify(users[0]));
-      // window.location.href = 'index.html'; // descomente se quiser redirecionar
+      window.location.href = 'index.html';
     } else {
       loginError.textContent = 'Usuário ou senha incorretos.';
     }
@@ -105,3 +115,4 @@ registerForm.addEventListener('submit', async function(e) {
     registerError.textContent = 'Erro ao tentar cadastrar.';
   }
 });
+

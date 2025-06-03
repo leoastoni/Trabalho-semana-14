@@ -11,19 +11,13 @@ Nesta atividade, você irá completar o projeto anterior permitindo cadastrar e 
 - Proposta de projeto escolhida: Catálogo de filmes
 - Breve descrição sobre seu projeto: Um site simples onde o usuário poderá ver sobre seu filme de interesse
 
-**Print do testes da API com Postman ou similar**
+**Print da tela com a implementação**
 
-<img src="/img/testeGet.PNG">
+<< Nessa etapa eu adicionei uma página de gráfico, onde nela mostra a quantidade de filmes de cada categoria>>
 
-<img src="/img/testePost.PNG">
+<img src="img/print1.PNG">
 
-<img src="/img/testePut.PNG">
-
-<img src="/img/testeDelete.PNG">
-
-**Print da aba NETWORK com requisições Fetch/XHR de POST**
-
-<img src="/img/testeCadastrofilme.PNG">
+<img src="img/print2.PNG">
 
 ## **Orientações Gerais**
 

@@ -2,61 +2,72 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Cadastro de Filmes</title>
-  <link rel="stylesheet" href="/assets/css/filmes.css" />
+  <link rel="stylesheet" href="assets/css/filmes.css">
 </head>
 <body>
-  <h1>Cadastro de Filmes</h1>
+  <div class="container">
+    <h1>Cadastro de Filmes</h1>
 
-  <section id="form-section">
-    <form id="filme-form">
-      <input type="hidden" id="filme-id" />
+    <section id="form-section">
+      <form id="filme-form">
+        <label for="titulo">Título</label>
+        <input type="text" id="titulo" name="titulo" required>
 
-      <label for="titulo">Título:</label>
-      <input type="text" id="titulo" required />
+        <label for="descricao">Descrição</label>
+        <textarea id="descricao" name="descricao" rows="2" required></textarea>
 
-      <label for="descricao">Descrição:</label>
-      <textarea id="descricao" required></textarea>
+        <label for="categoria">Categoria</label>
+        <select id="categoria" name="categoria" required>
+          <option value="">Selecione...</option>
+          <option value="Ação">Ação</option>
+          <option value="Comédia">Comédia</option>
+          <option value="Drama">Drama</option>
+          <option value="Aventura">Aventura</option>
+          <option value="Ficção Científica">Ficção Científica</option>
+          <option value="Terror">Terror</option>
+          <option value="Animação">Animação</option>
+          <option value="Suspense">Suspense</option>
+        </select>
 
-      <label for="categoria">Categoria:</label>
-      <input type="text" id="categoria" required />
+        <label for="diretor">Diretor</label>
+        <input type="text" id="diretor" name="diretor" required>
 
-      <label for="diretor">Diretor:</label>
-      <input type="text" id="diretor" required />
+        <label for="ano">Ano</label>
+        <input type="number" id="ano" name="ano" required min="1900" max="2100">
 
-      <label for="ano">Ano:</label>
-      <input type="number" id="ano" required min="1900" max="2100" />
+        <label for="imagem">URL da Imagem</label>
+        <input type="text" id="imagem" name="imagem" required placeholder="Ex: /img/filme1.jpg ou https://...">
 
-      <label for="imagem">URL da Imagem:</label>
-      <input type="text" id="imagem" />
+        <label for="conteudo">Conteúdo</label>
+        <textarea id="conteudo" name="conteudo" rows="2" required></textarea>
 
-      <label for="conteudo">Conteúdo:</label>
-      <textarea id="conteudo" required></textarea>
+        <button type="submit">Adicionar Filme</button>
+      </form>
+    </section>
 
-      <button type="submit">Salvar</button>
-      <button type="button" id="cancel-edit" style="display:none;">Cancelar</button>
-    </form>
-  </section>
-
-  <section id="tabela-section">
-    <table>
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>Título</th>
-          <th>Categoria</th>
-          <th>Diretor</th>
-          <th>Ano</th>
-          <th>Ações</th>
-        </tr>
-      </thead>
-      <tbody id="filmes-tbody">
-        <!-- filmes listados aqui -->
-      </tbody>
-    </table>
-  </section>
-
-  <script src="/assets/scripts/filmes.js"></script>
+    <section id="tabela-section">
+      <h2 style="margin-bottom:16px;">Filmes Cadastrados</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Título</th>
+            <th>Categoria</th>
+            <th>Diretor</th>
+            <th>Ano</th>
+            <th>Imagem</th>
+            <th>Descrição</th>
+            <th>Conteúdo</th>
+            <th>Ações</th>
+            <th>Suspense</th>
+          </tr>
+        </thead>
+        <tbody id="filmes-tbody">
+          <!-- Os filmes cadastrados aparecerão aqui via JS -->
+        </tbody>
+      </table>
+    </section>
+  </div>
+  <script src="assets/scripts/filmes.js"></script>
 </body>
 </html>

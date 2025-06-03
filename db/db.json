@@ -52,7 +52,7 @@
     },
     {
       "id": "6",
-      "titulo": " The Batman",
+      "titulo": "The Batman",
       "descricao": "O Cavaleiro das Trevas combate o crime em Gotham.",
       "categoria": "Ação",
       "ano": "2022",
@@ -107,7 +107,7 @@
       "categoria": "Drama",
       "ano": "2024",
       "diretor": "Todd Phillips",
-      "imagem": "/img/filme1.jpg",
+      "imagem": "/img/filme14.webp",
       "conteudo": "O infame vilão Coringa retorna em uma sequência profunda e introspectiva, explorando a ascensão de sua loucura e os desafios de viver em um mundo caótico."
     },
     {
@@ -151,7 +151,7 @@
       "conteudo": "Baseado nos livros de J.R.R. Tolkien, a trilogia 'O Senhor dos Anéis' segue Frodo e seus amigos em uma missão para destruir o Um Anel e derrotar o maligno Sauron. Um marco do cinema de fantasia e aventura."
     },
     {
-      "id": "eec3",
+      "id": "16",
       "titulo": "Carros 2",
       "descricao": "O astro das corridas, Relâmpago McQueen, e o carro-guincho, Mate, viajam para disputar o primeiro Grand Prix Mundial, que irá revelar o carro mais veloz do planeta. Nessa jornada imperdível, Mate se envolve com um grupo de espionagem e vive grandes aventuras com seus amigos.",
       "categoria": "Animação",
@@ -161,14 +161,34 @@
       "conteudo": "O astro das corridas, Relâmpago McQueen, e o carro-guincho, Mate, viajam para disputar o primeiro Grand Prix Mundial, que irá revelar o carro mais veloz do planeta. Nessa jornada imperdível, Mate se envolve com um grupo de espionagem e vive grandes aventuras com seus amigos."
     },
     {
-      "id": "a265",
-      "titulo": "Carros",
-      "descricao": "Ao viajar para a Califórnia, o famoso carro de corridas Relâmpago McQueen se perde e vai parar em Radiator Springs, uma cidadezinha na Rota 66. Ele conhece novos amigos e aprende lições que mudam sua forma de encarar a vida.",
-      "categoria": "Animação",
-      "diretor": "John Lasseter",
-      "ano": 2006,
-      "imagem": "https://static.wikia.nocookie.net/vozesportuguesas/images/9/9b/Carros_p%C3%B4ster.jpg/revision/latest?cb=20200819020558&path-prefix=pt",
-      "conteudo": "Ao viajar para a Califórnia, o famoso carro de corridas Relâmpago McQueen se perde e vai parar em Radiator Springs, uma cidadezinha na Rota 66. Ele conhece novos amigos e aprende lições que mudam sua forma de encarar a vida."
+      "titulo": "Até o Último Homem",
+      "descricao": "A história conta a trajetória real de Desmond Doss, um médico do exército dos EUA durante a Segunda Guerra Mundial que se recusou a carregar uma arma ou matar por motivos de consciência religiosa. ",
+      "categoria": "Ação",
+      "diretor": "Mel Gibson",
+      "ano": "2016",
+      "imagem": "https://br.web.img2.acsta.net/c_310_420/pictures/16/11/21/15/29/457312.jpg",
+      "conteudo": "\"Até o Último Homem\" (Hacksaw Ridge) é um filme baseado na história real de Desmond Doss, um médico do exército americano que serviu na Segunda Guerra Mundial sem nunca ter tocado em uma arma. O filme retrata a coragem e a fé de Doss, um Opositor Consciente, que, apesar de recusar-se a matar, salvou inúmeras vidas durante a Batalha de Okinawa, recebendo a Medalha de Honra do Congresso. ",
+      "id": "_Tud4Mc"
+    },
+    {
+      "titulo": "Interestelar",
+      "descricao": "\"Interestelar\" é um filme de ficção científica que explora a possibilidade de a humanidade encontrar um novo lar em outros planetas, após a Terra se tornar insustentável devido à degradação ambiental e pragas agrícolas.",
+      "categoria": "Ficção Científica",
+      "diretor": "Christopher Nolan",
+      "ano": "2014",
+      "imagem": "https://images.justwatch.com/poster/169337786/s718/interestelar.jpg",
+      "conteudo": "\"Interestelar\" é uma ficção científica que se passa num futuro distópico, onde a Terra é afetada por pragas e fome. A NASA tenta encontrar um novo lar para a humanidade, enviando uma equipa de astronautas numa missão interestelar, que passa por um buraco de minhoca perto de Saturno. ",
+      "id": "z0SJlvx"
+    },
+    {
+      "titulo": "Oppenheimer",
+      "descricao": "O filme \"Oppenheimer\", dirigido por Christopher Nolan, é uma biografia dramática que conta a história de J. Robert Oppenheimer, o físico que liderou o Projeto Manhattan, um esforço de guerra durante a Segunda Guerra Mundial para desenvolver a primeira bomba atômica.",
+      "categoria": "Suspense",
+      "diretor": "Christopher Nolan",
+      "ano": "2023",
+      "imagem": "https://br.web.img2.acsta.net/pictures/23/05/08/10/29/0695770.jpg",
+      "conteudo": "O filme \"Oppenheimer\" (2023), dirigido por Christopher Nolan, é uma cinebiografia que explora a vida e a jornada de J. Robert Oppenheimer, o físico teórico americano que liderou o Projeto Manhattan, o desenvolvimento da bomba atômica durante a Segunda Guerra Mundial.",
+      "id": "aqM2bps"
     }
   ],
   "usuarios": [
@@ -187,11 +207,25 @@
       "senha": "senha456"
     },
     {
+      "id": "3",
       "login": "usuario3",
       "nome": "usuario3",
       "email": "usuario3@email.com",
+      "senha": "senha123"
+    },
+    {
+      "login": "usuario4",
+      "nome": "usuario4",
+      "email": "usuario4@email.com",
+      "senha": "senha1",
+      "id": "REvJ3ra"
+    },
+    {
+      "login": "leo",
+      "nome": "leo",
+      "email": "leo@email.com",
       "senha": "senha123",
-      "id": "3"
+      "id": "feltcHg"
     }
   ]
 }
