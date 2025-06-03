@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/MKG87_is)
 
 # Trabalho Prático - Semana 12
@@ -67,3 +68,6 @@ Ao criar suas estruturas de dados no arquivo db.json, você poderá obter estes 
 * na pasta **`db`**, com o arquivo `db.json`.
 
 Deixe todos os demais arquivos e pastas desse repositório inalterados. **PRESTE MUITA ATENÇÃO NISSO.**
+=======
+# Trabalho-semana-14
+>>>>>>> 7b63363babfa048bf7b6c3e34fa5ee5e4e64fc7b
